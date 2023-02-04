@@ -4,6 +4,6 @@ def solution(num1, num2):
     return answer
 
 # 1
-solution(3, 2)
+print(solution(3, 2))
 # 0
-solution(10, 5)
+print(solution(10, 5))

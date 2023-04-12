@@ -8,7 +8,7 @@ def facto(n):
 
 def solution(balls, share):
     answer = 0
-    answer = int(facto(balls)*((1/facto(balls-share))*(1/facto(share))))
+    answer = int(facto(balls)/((facto(balls-share))*(facto(share))))
     return answer
 
 # 3
